@@ -6,7 +6,7 @@ const units  = "&units=imperial"
 const googleApi = "https://maps.googleapis.com/maps/api/geocode/json?latlng="
 const googleKey = "&key=AIzaSyDyuSf8uGbqpI6hjzkrs3Cqmj9mx0Ek0Uc"
 
-var OnGitHub = false // change this to true if send it to GitHub
+var OnGitHub = true // change this = true if sends to GitHub ( = false if work locally)
 
 // Will run after all HTML is done rendering
 window.onload = function(){
